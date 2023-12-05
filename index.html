@@ -1,28 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/football.css">
+
+
 </head>
+
 <body>
     <!-- top most header  -->
 
-    <header>
+    <header class="fb_container fb_flex fb_header_1 ">
         <div>
             <img src="assets/images/logo.svg" alt="">
         </div>
 
-        <div>
-            search
+
+
+        <!-- search box  -->
+
+        <div class="fb_search_field" style="display:none">
+            <div class="input-group input-group-lg mobile_academy_input">
+
+
+                <input type="text" class="form-control fb_custom_search" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-lg" placeholder="Search players, coach, acadmey..." />
+
+                <button type="submit" class="fb_search_btn">
+                    <img src="assets/images/search.svg" alt="" />
+                </button>
+
+            </div>
         </div>
 
-        <div>
-            <button>Login</button>
+        <!-- search box ends  -->
+
+
+        <!-- another header which contains navbar menu and city  -->
+
+        <section class="fb_header_2" style="display: block;">
+
+            <div class="fb_nav_menu fb_font">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <!-- another header which contains navbar menu and city ends -->
+
+        <div class="fb_login">
+
+            <div class="fb_city_section" style="display: block;">
+
+                <div class="fb_club fb_city" id="selectedCity">
+                    <span>Select Your City</span>
+                    <img src="assets/images/black-arrow.svg" alt="">
+                </div>
+
+                <div class="city_div fb_font">
+                    <div class="fb_city_search_container">
+                        <div class="fb_city_search_icon">
+                            <img src="assets/images/search2.svg" alt="">
+                        </div>
+
+                        <input type="text" class="fb_city_search_input"
+                            placeholder="Search for your city by name or pin code">
+
+                    </div>
+
+                    <div class="fb_detect">
+                        <img src="assets/images/detect.svg" alt="">
+                        <span class="fb_font">Detect my location</span>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="fb_font fb_popular">Popular Cities</p>
+                        </div>
+
+
+                        <div class="fb_city_img">
+                            <img src="assets/images/mumbai.svg" alt="">
+                            <img src="assets/images/delhi-ncr.svg" alt="">
+                            <img src="assets/images/begaluru.svg" alt="">
+                            <img src="assets/images/hyderababd.svg" alt="">
+                            <img src="assets/images/ahmedabad.svg" alt="">
+                            <img src="assets/images/chandigarh.svg" alt="">
+                            <img src="assets/images/chennai.svg" alt="">
+                            <img src="assets/images/pune.svg" alt="">
+                            <img src="assets/images/kolkata.svg" alt="">
+                            <img src="assets/images/kochi.svg" alt="">
+                        </div>
+
+                        <div>
+                            <span class="fb_font fb_all_cities">View All Cities</span>
+                        </div>
+
+                        <div class="city_list_div fb_font">
+                            <ul class="fb_font">
+                                <li>ahmedabad</li>
+                                <li>bangalore</li>
+                                <li>chennai</li>
+                                <li>delhi</li>
+                                <li>hyderabad</li>
+                                <li>ludhiana</li>
+                                <li>pune</li>
+                                <li>surat</li>
+                                <li>bhopal</li>
+                                <li>lucknow</li>
+                                <li>indore</li>
+                                <li>jabalpur</li>
+                                <li>mumbai </li>
+                                <li>udaipur</li>
+                                <li>rajasthan</li>
+                                <li>ahmedabad</li>
+                                <li>bangalore</li>
+                                <li>chennai</li>
+                                <li>delhi</li>
+                                <li>hyderabad</li>
+                                <li>ludhiana</li>
+                                <li>pune</li>
+                                <li>surat</li>
+                                <li>bhopal</li>
+                                <li>lucknow</li>
+                                <li>indore</li>
+                                <li>jabalpur</li>
+                                <li>mumbai </li>
+                                <li>udaipur</li>
+                                <li>rajasthan</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <span class="fb_font fb_hide_cities">Hide All Cities</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button class="fb_login_btn fb_font">Login / Sign up</button>
+            </div>
+
+
         </div>
+
+
     </header>
+
     <!-- top most header ends -->
+
+
+    <!-- blue header starts  -->
+
+    <header class="fb_container fb_flex fb_header_blue fb_font">
+
+        <div>
+            <span>Home</span>
+            <img src="assets/images/white-arrow.svg" alt="">
+            <span>Academies</span>
+            <img src="assets/images/white-arrow.svg" alt="">
+            <span>kuljeet football academy</span>
+        </div>
+
+
+        <div class="fb_nav_option fb_font">
+            <ul>
+                <li>Home</li>
+                <li class="fb_sports">Sports</li>
+                <li>Blogs</li>
+                <li>Competition</li>
+                <li>Contact</li>
+                <li>Register</li>
+            </ul>
+
+            <div class="sports_div fb_font">
+                <ul class="fb_font">
+                    <li>Archery</li>
+                    <li>athletics</li>
+                    <li>badminton</li>
+                    <li>Baseball</li>
+                    <li>basketball</li>
+                    <li>boxing</li>
+                    <li>chess</li>
+                    <li>cricket</li>
+                    <li>cycling</li>
+                    <li>football</li>
+                    <li>golf</li>
+                    <li>hockey</li>
+                    <li>judo </li>
+                    <li>karate</li>
+                    <li>kick boxing</li>
+                    <li>MMA</li>
+                    <li>shooting</li>
+                    <li>swimming</li>
+                    <li>Table Tennis</li>
+                    <li>taekwondo</li>
+                    <li>tennis</li>
+                    <li>volleyball</li>
+                    <li>weight lifting</li>
+                    <li>wrestling</li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <!-- blue header ends -->
+
+
+    <!-- header banner section  -->
+
+    <header class="fb_flex fb_banner">
+        <img src="assets/images/fb_banner.png" alt="">
+    </header>
+
+    <!-- header banner section ends -->
+
+    <!-- football menu section starts  -->
+
+    <section class="fb_menu fb_flex">
+
+        <div class="fb_menu_card">
+            <img src="assets/images/fb_academy.svg" alt="">
+
+            <span class="fb_font fb_academy">Football Academies</span>
+
+            <div class="fb_red_arrow">
+                <img src="assets/images/white-arrow.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="fb_menu_card">
+            <img src="assets/images/fb_player.svg" alt="">
+
+            <span class="fb_font fb_academy">Football Players</span>
+
+            <div class="fb_red_arrow">
+                <img src="assets/images/white-arrow.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="fb_menu_card">
+            <img src="assets/images/fb_club.svg" alt="">
+
+            <span class="fb_font fb_academy">Football Clubs</span>
+
+            <div class="fb_red_arrow">
+                <img src="assets/images/white-arrow.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="fb_menu_card">
+            <img src="assets/images/fb_league.svg" alt="">
+
+            <span class="fb_font fb_academy">Football Leagues</span>
+
+            <div class="fb_red_arrow">
+                <img src="assets/images/white-arrow.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="fb_menu_card">
+            <img src="assets/images/fb_agents.svg" alt="">
+
+            <span class="fb_font fb_academy">Football Agents</span>
+
+            <div class="fb_red_arrow">
+                <img src="assets/images/white-arrow.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="fb_menu_card">
+            <img src="assets/images/fb_coaches.svg" alt="">
+
+            <span class="fb_font fb_academy">Football Coaches</span>
+
+            <div class="fb_red_arrow">
+                <img src="assets/images/white-arrow.svg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- football menu section ends -->
+
+    <!-- featured football academy section  -->
+
+    <section class="fb_feature_section">
+
+        <div class="fb_flex">
+            <p class="fb_font fb_feature_head">Featured Football Academies</p>
+            <button class="fb_view_all">View All <img src="assets/images/blace-arrow-2.svg" alt=""></button>
+        </div>
+
+        <div class="fb_feature_wrapper">
+            <div class="fb_feature_card">
+                <img src="assets/images/fb_menu_1.png" alt="">
+
+                <div class="fb_card_content fb_flex">
+                    <span class="fb_font fb_academy_name">Meerut Football Academy</span>
+
+                    <div class="fb_green_img">
+                        <img src="assets/images/green-tick.svg" alt="" srcset="">
+                    </div>
+                </div>
+
+                <div>
+                    <span class="fb_font fb_address">sector 83, gurgaon</span>
+                </div>
+
+                <div class="fb_star_section fb_flex">
+                    <span class="fb_font">4.0</span>
+                    <div class="fb_stars" style="--star_rating: 4" aria-label="Rating of this product is 4 out of 5."></div>
+                    <span class="fb_font">(50 Reviews)</span>
+                </div>
+
+                <div class="fb_flex fb_card_bottom">
+                    <div class="fb_graph fb_flex">
+                        <img src="assets/images/graph.svg" alt="">
+                        <span>20</span>
+                    </div>
+
+                    <div >
+                        <button class="fb_bottom_btn fb_msg fb_font"><img src="assets/images/message.svg" alt="">Message</button>
+                    </div>
+
+                    <div>
+                        <button class="fb_bottom_btn fb_call fb_font"><img src="assets/images/call.svg" alt="">Call</button>
+                    </div>
+                </div>
+
+               
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- featured football academy section ends -->
 </body>
+
+<script src="assets/js/football.js"></script>
+
 </html>
