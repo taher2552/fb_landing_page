@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .fb_font {
@@ -442,6 +443,8 @@ margin-top: 2rem;
   align-items: center;
   flex-direction: column;
 }
+
+
 .fb_academy {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -455,6 +458,7 @@ margin-top: 2rem;
 .fb_feature_wrapper {
   margin-left: 5rem;
   margin-right: 5rem;
+
 }
 
 .fb_feature_head {
@@ -466,19 +470,48 @@ margin-top: 2rem;
 }
 
 .fb_feature_card {
-  width: 25rem;
-  height: 18.5rem;
+  width:min-content;
+  height:auto;
   flex-shrink: 0;
   border-radius: 0.625rem 0.625rem 0rem 0rem;
   border: 1px solid #dcdcdc;
   background: #fff;
+  margin-bottom: 2rem;
 }
 
-.fb_feature_card img {
-  width: 25rem;
+.fb_feature_card_2{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.fb_img_secion{
+  position: relative;
+}
+
+.fb_card_img{
+  width: 21rem;
   height: 8.625rem;
   object-fit: cover;
   border-radius: 0.625rem 0.625rem 0rem 0rem;
+}
+
+.fb_pink_arrow{
+ position: absolute;
+ top:10%;
+}
+
+.fb_pink_arrow p{
+ color: #222;
+font-family: DM Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.02563rem;
+text-transform: uppercase;
+position: absolute;
+top:58%;
+left:45%;
+transform: translate(-50%, -50%);
 }
 
 .fb_view_all {
@@ -517,6 +550,41 @@ margin-top: 2rem;
   color: #505050;
   font-size: 1rem;
   padding-left: 0.5rem;
+}
+
+.fb_img_count{
+  background-color: rgba(0,0,0,0.5);
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color:#fff;
+  padding: 0.6rem 0.9rem; 
+}
+
+.fb_line{
+  padding-right: 1rem;
+  border-right: 1px solid white;
+}
+
+.fb_line img{
+  margin-left: 0.2rem;
+}
+.fb_line_2 img{
+  margin-left: 0.2rem;
+}
+
+.fb_line_2{
+  padding-left: 1rem;
+}
+
+.fb_img_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* star css  */
@@ -569,7 +637,7 @@ margin-top: 2rem;
 .fb_card_bottom{
   padding: 0.5rem;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem;  
 }
 
 .fb_bottom_btn{
@@ -578,7 +646,7 @@ padding-bottom: 0.6rem;
  outline: none;
  border: 1px solid transparent;
  border-radius: 0.3125rem;
- width: 9rem;
+ width: 7.5rem;
 }
 
 .fb_msg{
