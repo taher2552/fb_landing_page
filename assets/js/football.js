@@ -29,7 +29,6 @@ sports.addEventListener("mouseover", () => {
 const cityDiv = document.querySelector(".city_div");
 const city = document.querySelector(".fb_city");
 const viewAllCities = document.querySelector(".fb_all_cities"); // Select the "View All Cities" element
-const hideAllCities = document.querySelector(".fb_hide_cities"); // Select the "Hide All Cities" element
 const cityListDiv = document.querySelector(".city_list_div"); // Select the city list div
 
 
@@ -44,8 +43,7 @@ document.addEventListener("mouseover", function (event) {
     cityDiv.style.display = "none";
     cityDiv.style.height = "auto";
     cityListDiv.style.display = "none";
-    viewAllCities.style.display = "block";
-    hideAllCities.style.display = "none";
+    viewAllCities.textContent = "View All Cities";
   }
 });
 
@@ -58,19 +56,22 @@ city.addEventListener("mouseover", () => {
 // view and hide city list js
 
 document.addEventListener("DOMContentLoaded", function () {
- 
-  viewAllCities.addEventListener("click", function () {
-    cityListDiv.style.display = "block"; // Show the city list
-    hideAllCities.style.display = "block"; 
-    viewAllCities.style.display="none";
-    cityDiv.style.height="30rem";
-  });
 
-  hideAllCities.addEventListener("click", function () {
-    viewAllCities.style.display="block";
-    cityListDiv.style.display = "none";
-    hideAllCities.style.display = "none"; 
-  });
+  // Toggle function to handle the click event
+  function toggleCityList() {
+    if (viewAllCities.textContent === "View All Cities") {
+      cityListDiv.style.display = "block"; // Show the city list
+      viewAllCities.textContent = "Hide All Cities";
+      cityDiv.style.height = "30rem";
+    } else {
+      cityListDiv.style.display = "none"; // Hide the city list
+      viewAllCities.textContent = "View All Cities";
+      cityDiv.style.height = "auto";
+    }
+  }
+
+  // Event listener for toggling the city list
+  viewAllCities.addEventListener("click", toggleCityList);
 });
 
 // view and hide city list js ends

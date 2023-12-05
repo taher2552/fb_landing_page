@@ -40,6 +40,10 @@ ul {
   margin-bottom: 0;
 }
 
+.expand-height {
+  transition: height 0.5s ease-in-out;
+}
+
 /* general css ends  */
 
 /* header css starts  */
