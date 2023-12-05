@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+
     <link rel="stylesheet" href="assets/css/football.css">
 
 
@@ -738,7 +739,7 @@
     <!-- top sports section ends -->
 
     <!-- blogs section  -->
-     
+
     <section class="fb_blogs_section">
 
         <div class="fb_latest_blog">
@@ -746,7 +747,106 @@
             <span class="fb_font">Read our blogs to get latest news and insights of sports in India</span>
             <button class="fb_font fb_now fb_view">View All</button>
         </div>
+
+        <div class="fb_blog_flex">
+
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/blog_mob.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/basket_grp.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/blog_mob.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/basket_grp.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/basket_grp.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/basket_grp.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/basket_grp.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+            <div class="fb_blog_card">
+                <div class="mobile_home_blog_img">
+                    <img src="assets/images/basket_grp.jpg" alt="">
+                </div>
+                <div class="mobile_home_date">
+                    <p>October 11th, 2023 1:49 PM</p>
+                    <p>Coaches of the ISL: Profiles of Tactical Innovators and Strategists</p>
+                    <p class="mobile_home_read">Read Now</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fb_red_bg scroll-left">
+            <img src="assets/images/angel_2.svg" alt="">
+        </div>
+
+        <div class="fb_red_bg scroll-right">
+            <img src="assets/images/angel_1.svg" alt="">
+        </div>
+
+
     </section>
+
+
 
 
 
@@ -754,5 +854,30 @@
 </body>
 
 <script src="assets/js/football.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const scrollLeftButton = document.querySelector('.scroll-left');
+        const scrollRightButton = document.querySelector('.scroll-right');
+        const blogFlex = document.querySelector('.fb_blog_flex');
+
+        scrollLeftButton.addEventListener('click', function () {
+            blogFlex.scrollBy({
+                left: -200, // Adjust the scroll amount as needed
+                behavior: 'smooth'
+            });
+        });
+
+        scrollRightButton.addEventListener('click', function () {
+            blogFlex.scrollBy({
+                left: 200, // Adjust the scroll amount as needed
+                behavior: 'smooth'
+            });
+        });
+    });
+
+
+</script>
+
 
 </html>

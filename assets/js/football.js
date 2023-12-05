@@ -75,3 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // view and hide city list js ends
+
+
+
