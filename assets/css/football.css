@@ -487,7 +487,7 @@ ul {
 }
 
 .fb_card_img {
-  width: 25rem;
+  width: 22rem;
   height: 8.625rem;
   object-fit: cover;
   border-radius: 0.625rem 0.625rem 0rem 0rem;
@@ -662,14 +662,11 @@ ul {
   margin-right: 0.3rem;
 }
 
-
-
 /* fb featured section ends */
-
 
 /* fb register section  */
 
-.fb_register{
+.fb_register_section {
   margin-left: 6.25rem;
   margin-right: 6.25rem;
   max-width: 1650px;
@@ -678,19 +675,181 @@ ul {
   background: #fff;
   padding: 2.5rem 2rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-.fb_register{
-  color:#222;
-font-family: DM Sans;
-font-size: 1.875rem;
-font-style: normal;
-font-weight: 600;
-letter-spacing: -0.02563rem;
+.fb_register {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.02563rem;
 }
 
+.fb_register_div {
+  margin-bottom: 1.25rem;
+}
+
+.fb_now {
+  border-radius: 0.3125rem;
+  background: #fe5c4d;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 0.9rem;
+  outline: none;
+  border: 1px solid transparent;
+}
+.fb_now:hover {
+  border: 1px solid #fe5c4d;
+  color: #fe5c4d;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.fb_blue_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.625rem;
+  background: #0a4dfa;
+  width: 8.875rem;
+  height: 7.625rem;
+  color: #fff;
+}
+
+.fb_blue_flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fb_blue_card img {
+  margin-bottom: 0.6rem;
+}
 
 /* fb register section ends */
+
+/* fb about section  */
+
+.fb_about_section {
+  background: #edf6f7;
+  padding: 2rem 6.25rem;
+}
+
+.fb_about_txt {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.fb_about {
+  color: var(--Primary, #222);
+  font-family: DM Sans;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: uppercase;
+}
+
+.fb_red {
+  color: #fe5c4d;
+}
+
+.fb_about_content {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.fb_about_content span:first-child,
+.fb_tour {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: -0.02563rem;
+}
+.fb_about_content span:last-child {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+/* fb about section ends */
+
+/* fb tour section  */
+
+.fb_tour_section {
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+  padding-top: 2rem;
+  background: #F9FDFD;
+}
+
+.fb_tour_list{
+  margin-top: 0.5rem;
+}
+
+.fb_tour_list ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  margin-left: -2.31rem;
+}
+
+.fb_tour_list ul li {
+  padding-left: 0.31rem;
+  padding-right: 0.31rem;
+  border-right: 1px solid #aaa;
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: -0.02563rem;
+}
+
+.fb_tour_list ul li:last-child{
+  border-right: 1px solid transparent;
+}
+
+.fb_sport_section{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  background: #F9FDFD;
+}
+
+/* fb tour section ends */
+
+/* fb blog section  */
+
+.fb_latest_blog{
+  text-align: center;
+}
+
+.fb_latest_blog span{
+  font-size: 2.625rem;
+font-weight: 700;
+}
+
+
+/* fb blog section ends */
 
 /* media query section  */
 

@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general css  */
+
+.fb_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fb_font {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+  font-family: DM Sans;
+  letter-spacing: -0.02563rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fb_container {
+  max-width: 1650px;
+  margin: 0 auto;
+  border: 1px solid green;
+  padding: 1rem 6.25rem;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+/* general css ends  */
+
+/* header css starts  */
+
+/* search css  */
+
+.fb_search_field {
+  width: 46rem;
+}
+
+.fb_search_field .fb_custom_search {
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.fb_custom_search:focus {
+  box-shadow: none;
+  border: 1px solid #dcdcdc;
+}
+
+.fb_search_field .fb_search_btn {
+  border-radius: 0 5px 5px 0;
+  background-color: #fe5c4d;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb_search_btn img {
+  width: 15px;
+  height: auto;
+}
+
+.fb_search_field .fb_search_btn {
+  border-radius: 0 5px 5px 0;
+  padding: 10px 15px;
+  background-color: #fe5c4d;
+  border: none;
+}
+
+/* search css ends */
+
+.fb_login_btn {
+  border-radius: 0.3125rem;
+  background: #fe5c4d;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid transparent;
+}
+
+.fb_login_btn:hover {
+  border: 1px solid #fe5c4d;
+  color: #fe5c4d;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.fb_club_wrapper {
+  position: relative;
+}
+
+.fb_club_div {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 180px;
+  width: 200px;
+  overflow: auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 100%;
+  left: -106px;
+  display: none;
+  z-index: 1;
+}
+
+.fb_club_div ul {
+  list-style: none;
+  margin-left: -2rem;
+}
+
+.fb_club_div ul li {
+  padding: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.fb_club_div ul li:hover {
+  background-color: #fe5c4d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fb_club:hover + .fb_club_wrapper .fb_club_div,
+.fb_club_div:hover {
+  display: block;
+}
+
+.fb_nav_menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.fb_nav_menu ul li {
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1.125rem;
+}
+.fb_header_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fb_city {
+  border: 1px solid transparent;
+  margin-right: 1rem;
+}
+
+.fb_city span {
+  width: 7rem;
+}
+
+.fb_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb_city_section {
+  position: relative;
+}
+
+.city_div {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 15%;
+  z-index: 1;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+  padding: 1rem;
+  width: 61rem;
+}
+
+/* city search css  */
+
+.fb_city_search_container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.fb_city_search_input {
+  padding: 1rem;
+  padding-left: 35px; /* Adjust as needed for icon */
+  border: 1px solid #dcdcdc;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  width: 100%;
+  outline: none;
+}
+
+.fb_city_search_icon {
+  position: absolute;
+  top: 50%;
+  left: 12px; /* Adjust as needed for icon position */
+  transform: translateY(-50%);
+}
+
+.fb_detect {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dcdcdc;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.fb_detect span {
+  color: #fe5c4d;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fb_popular {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fb_all_cities,
+.fb_hide_cities {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+  color: #fe5c4d;
+  cursor: pointer;
+  display: block;
+}
+
+.fb_hide_cities {
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.city_list_div {
+  display: none;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.city_list_div ul {
+  z-index: 1;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  color: #aaa;
+  font-family: DM Sans;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+  height: 8rem;
+  overflow-y: scroll;
+  margin-top: 1rem;
+}
+
+.city_list_div ul li {
+  margin-bottom: 1rem !important;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.fb_city_img img {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.fb_city_img {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* city search css ends */
+
+/* header css ends */
+
+/* header 2 css  */
+
+.fb_header_blue {
+  background: #17479e;
+}
+
+.fb_header_blue span {
+  color: white;
+}
+
+.fb_nav_option ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fb_nav_option ul li {
+  color: #fff;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.fb_nav_option {
+  position: relative;
+}
+/* header 2 css ends */
