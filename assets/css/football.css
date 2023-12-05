@@ -734,6 +734,11 @@ ul {
   margin-bottom: 0.6rem;
 }
 
+.fb_view{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* fb register section ends */
 
 /* fb about section  */
@@ -841,11 +846,19 @@ ul {
 
 .fb_latest_blog{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.fb_latest_blog span{
-  font-size: 2.625rem;
+.fb_latest_blog span:first-child{
+  font-size: 2rem;
 font-weight: 700;
+}
+.fb_latest_blog span:last-child{
+ color:#505050;
+ font-size: 1rem;
 }
 
 
