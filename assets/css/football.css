@@ -467,6 +467,7 @@ ul {
   margin-left: 6.25rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
+  text-transform: capitalize;
 }
 
 .fb_feature_card {
@@ -612,10 +613,6 @@ ul {
 
 .fb_star_section {
   justify-content: start;
-  margin-left: 0.5rem;
-}
-
-.fb_star_section {
   padding-bottom: 1rem;
   border-bottom: 1px solid #dcdcdc;
   margin-left: 0rem;
@@ -726,7 +723,7 @@ ul {
   margin-right: 1.5rem;
 }
 
-.fb_blue_card_5k{
+.fb_blue_card_5k {
   font-size: 1.5625rem;
   font-weight: 600;
 }
@@ -743,8 +740,8 @@ ul {
 }
 
 .fb_view {
-margin-top: 1.4rem;
-margin-bottom: 2.5rem;
+  margin-top: 1.4rem;
+  margin-bottom: 2.5rem;
 }
 
 /* fb register section ends */
@@ -860,7 +857,7 @@ margin-bottom: 2.5rem;
   flex-direction: column;
 }
 
-.fb_latest{
+.fb_latest {
   font-size: 2rem;
   font-weight: 700;
   font-family: Dm Sans;
@@ -1115,7 +1112,7 @@ margin-bottom: 2.5rem;
 
 /* footer css starts  */
 
-.fb_footer{
+.fb_footer {
   margin-left: 6.25rem;
   margin-right: 6.25rem;
   margin-top: 5rem;
@@ -1124,7 +1121,7 @@ margin-bottom: 2.5rem;
   align-items: start;
 }
 
-.fb_footer_first{
+.fb_footer_first {
   display: flex;
   justify-content: start;
   align-items: start;
@@ -1132,90 +1129,88 @@ margin-bottom: 2.5rem;
   width: 25%;
 }
 
-.fb_footer_first span, .fb_footer_first img{
+.fb_footer_first span,
+.fb_footer_first img {
   margin-bottom: 2rem;
   color: #505050;
-  
 }
 
-
-.fb_insta{
+.fb_insta {
   margin-right: 0.5rem;
 }
 
-.fb_footer_two span{
+.fb_footer_two span {
   font-size: 1.125rem;
-font-weight: 700;
-text-transform: uppercase;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.fb_links ul{
+.fb_links ul {
   list-style: none;
   margin-top: 1.5rem;
   margin-left: -2rem;
 }
 
-.fb_links ul li{
+.fb_links ul li {
   margin-bottom: 1.2rem;
   color: #505050;
   cursor: pointer;
   font-size: 0.875rem;
-  
 }
 
-.fb_links ul li a{
+.fb_links ul li a {
   color: #505050;
 }
 
-.fb_links ul li a:hover{
+.fb_links ul li a:hover {
   color: #fe5c4d;
   transition: all 0.5s ease-in-out;
 }
 
-.fb_footer_add{
+.fb_footer_add {
   display: flex;
   justify-content: start;
   align-items: start;
   flex-direction: column;
 }
 
-.fb_footer_add{
+.fb_footer_add {
   margin-top: 1.5rem;
 }
 
-.fb_footer_add span{
+.fb_footer_add span {
   color: #505050;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-weight: 500;
-line-height: 1.5625rem;
-letter-spacing: -0.02563rem;
-text-transform: capitalize;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5625rem;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
 }
 
-.fb_mail{
+.fb_mail {
   font-weight: 600;
   text-transform: lowercase;
   font-size: 0.875rem;
   cursor: pointer;
 }
 
-.fb_mail:hover{
-  color:#fe5c4d;
+.fb_mail:hover {
+  color: #fe5c4d;
   transition: all 0.5s ease-in-out;
 }
 
-.fb_mail_flex{
+.fb_mail_flex {
   display: flex;
   justify-content: start;
   align-items: center;
   margin-top: 2rem;
 }
 
-.fb_mail_flex img{
+.fb_mail_flex img {
   margin-right: 0.5rem;
 }
-.fb_footer_bottom{
+.fb_footer_bottom {
   width: 100%;
   text-align: center;
   padding: 0.8rem;
@@ -1224,10 +1219,82 @@ text-transform: capitalize;
   background-color: #fe5c4d;
 }
 
-
-
-
 /* footer css ends */
+
+/* recent tournament section  */
+
+.fb_recent_card {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  width: 23rem;
+  height: 10.75rem;
+  flex-shrink: 0;
+  margin-bottom: 1.5rem;
+}
+
+.fb_recent_flex {
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+  margin-bottom: 4rem;
+}
+
+.fb_recent_feature {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.fb_recent_feature p {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.02563rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 58%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+}
+
+.fb_place {
+  color: #17479e;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.fb_star_recent{
+  border-bottom: 1px solid transparent;
+  margin-bottom: 0;
+}
+
+.fb_recent_content{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 0.3rem;
+}
+
+.fb_shield img{
+  width: 1.8555rem;
+height: 2.10938rem;
+flex-shrink: 0;
+}
+
+.fb_shield{
+  border: 1px solid #dcdcdc;
+  padding: 0.8rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+
+/* recent tournament section ends */
 
 /* media query section  */
 
@@ -1295,25 +1362,22 @@ text-transform: capitalize;
 }
 
 @media only screen and (max-width: 1285px) {
-  .fb_feature_wrapper{
+  .fb_feature_wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-
 }
 
 @media only screen and (max-width: 927px) {
   .fb_feature_card_2 {
-    margin-right:  0;
+    margin-right: 0;
   }
-
 }
 @media only screen and (max-width: 917px) {
   .fb_feature_card_2 {
-    margin-left:  0;
+    margin-left: 0;
   }
-
 }
 
 @media screen and (min-width: 1285px) and (flex-wrap: wrap) {
