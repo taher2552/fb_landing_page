@@ -58,6 +58,7 @@ ul {
 .fb_custom_search:focus {
   box-shadow: none;
   border: 1px solid #dcdcdc;
+  box-shadow: none;
 }
 
 .fb_search_field .fb_search_btn {
@@ -1108,6 +1109,18 @@ ul {
   margin-top: 1rem;
 }
 
+.fb_new_input::placeholder {
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.fb_new_input:focus{
+  box-shadow: none;
+}
+
+
 /* join now box css ends */
 
 /* footer css starts  */
@@ -1265,12 +1278,12 @@ ul {
   margin-left: 1rem;
 }
 
-.fb_star_recent{
+.fb_star_recent {
   border-bottom: 1px solid transparent;
   margin-bottom: 0;
 }
 
-.fb_recent_content{
+.fb_recent_content {
   display: flex;
   justify-content: start;
   align-items: start;
@@ -1278,13 +1291,13 @@ ul {
   margin-bottom: 0.3rem;
 }
 
-.fb_shield img{
+.fb_shield img {
   width: 1.8555rem;
-height: 2.10938rem;
-flex-shrink: 0;
+  height: 2.10938rem;
+  flex-shrink: 0;
 }
 
-.fb_shield{
+.fb_shield {
   border: 1px solid #dcdcdc;
   padding: 0.8rem;
   border-radius: 50%;
@@ -1292,7 +1305,6 @@ flex-shrink: 0;
   margin-right: 0.5rem;
   margin-top: 0.7rem;
 }
-
 
 /* recent tournament section ends */
 
