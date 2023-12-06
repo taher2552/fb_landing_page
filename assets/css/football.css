@@ -743,8 +743,8 @@ ul {
 }
 
 .fb_view {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+margin-top: 1.4rem;
+margin-bottom: 2.5rem;
 }
 
 /* fb register section ends */
@@ -844,7 +844,7 @@ ul {
 .fb_sport_section {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   background: #f9fdfd;
 }
 
@@ -860,11 +860,13 @@ ul {
   flex-direction: column;
 }
 
-.fb_latest_blog span:first-child {
+.fb_latest{
   font-size: 2rem;
   font-weight: 700;
+  font-family: Dm Sans;
+  margin-bottom: 0.8rem;
 }
-.fb_latest_blog span:last-child {
+.fb_read {
   color: #505050;
   font-size: 1rem;
 }
