@@ -21,7 +21,6 @@
   font-size: 0.875rem;
   font-weight: 500;
   line-height: normal;
-  font-family: DM Sans;
   letter-spacing: -0.02563rem;
 }
 
@@ -39,7 +38,6 @@ a {
 ul {
   margin-bottom: 0;
 }
-
 
 /* general css ends  */
 
@@ -735,7 +733,7 @@ ul {
   margin-bottom: 0.6rem;
 }
 
-.fb_view{
+.fb_view {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -802,10 +800,10 @@ ul {
   padding-left: 6.25rem;
   padding-right: 6.25rem;
   padding-top: 2rem;
-  background: #F9FDFD;
+  background: #f9fdfd;
 }
 
-.fb_tour_list{
+.fb_tour_list {
   margin-top: 0.5rem;
 }
 
@@ -830,22 +828,22 @@ ul {
   letter-spacing: -0.02563rem;
 }
 
-.fb_tour_list ul li:last-child{
+.fb_tour_list ul li:last-child {
   border-right: 1px solid transparent;
 }
 
-.fb_sport_section{
+.fb_sport_section {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  background: #F9FDFD;
+  background: #f9fdfd;
 }
 
 /* fb tour section ends */
 
 /* fb blog section  */
 
-.fb_latest_blog{
+.fb_latest_blog {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -853,15 +851,14 @@ ul {
   flex-direction: column;
 }
 
-.fb_latest_blog span:first-child{
+.fb_latest_blog span:first-child {
   font-size: 2rem;
-font-weight: 700;
+  font-weight: 700;
 }
-.fb_latest_blog span:last-child{
- color:#505050;
- font-size: 1rem;
+.fb_latest_blog span:last-child {
+  color: #505050;
+  font-size: 1rem;
 }
-
 
 .mobile_home_blog_img {
   display: flex;
@@ -898,7 +895,6 @@ font-weight: 700;
   margin-top: 0.2rem;
 }
 
-
 .mobile_home_read {
   margin-left: 1rem;
   margin-top: 1.25rem;
@@ -914,21 +910,21 @@ font-weight: 700;
   margin-bottom: 1.5rem;
 }
 
-.fb_blog_flex{
+.fb_blog_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 6.25rem;
   margin-right: 6.25rem;
   overflow: hidden;
-
 }
 
-.fb_blog_card{
+.fb_blog_card {
   min-width: 21.375rem;
 }
 
-.fb_red_bg, .fb_grey_bg{
+.fb_red_bg,
+.fb_grey_bg {
   border-radius: 50%;
   padding: 0.5rem;
   background-color: #fe5c4d;
@@ -940,22 +936,276 @@ font-weight: 700;
   cursor: pointer;
 }
 
-.fb_grey_bg{
-  background-color: #F4F4F4;
+.fb_grey_bg {
+  background-color: #f4f4f4;
   margin-right: 0.7rem;
 }
 
-.fb_arrow_click{
+.fb_arrow_click {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-
-
+.fb_related_tags {
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 /* fb blog section ends */
+
+/* fb tags section  */
+
+.fb_tags_top {
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+  margin-top: 2rem;
+}
+
+.fb_tags_head {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.fb_tags_card {
+  border-radius: 1.875rem;
+  border: 1px solid #dcdcdc;
+  background: var(--White, #fff);
+  padding: 0.2rem 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fb_tag_match {
+  color: #505050;
+  text-transform: capitalize;
+}
+
+.fb_new_tags {
+  justify-content: start;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* fb tags section ends */
+
+/* join section css  */
+
+.fb_join_section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #fe5c4d;
+  border-radius: 0.625rem;
+  margin-right: 6.25rem;
+  margin-left: 6.25rem;
+}
+
+.box_1 {
+  background: #dfdfdf;
+  height: 1rem;
+  width: 87%;
+  margin: 0 auto;
+}
+.box_2 {
+  background: #eaeaea;
+  height: 1rem;
+  width: 92%;
+  margin: 0 auto;
+}
+.box_3 {
+  background-color: #fff;
+  width: 97%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb_box_img img {
+  margin-top: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.fb_join_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fb_join_txt span:nth-child(1) {
+  color: #272221;
+  font-family: DM Sans;
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+.fb_join_txt span:nth-child(2) {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.mobile_try_btn button {
+  border-radius: 0.3125rem;
+  background: #fe5c4d;
+  padding: 0.6rem 0.9rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.fb_search_field .fb_search_btn {
+  border-radius: 0 5px 5px 0;
+  background-color: #fe5c4d;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.fb_search_btn img {
+  width: 15px;
+  height: auto;
+}
+
+.fb_search_field .fb_search_btn {
+  border-radius: 0 5px 5px 0;
+  padding: 10px 15px;
+  background-color: #fe5c4d;
+  border: none;
+}
+
+.tour_subscribe {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+/* join now box css ends */
+
+/* footer css starts  */
+
+.fb_footer{
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.fb_footer_first{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 25%;
+}
+
+.fb_footer_first span, .fb_footer_first img{
+  margin-bottom: 2rem;
+  color: #505050;
+  
+}
+
+
+.fb_insta{
+  margin-right: 0.5rem;
+}
+
+.fb_footer_two span{
+  font-size: 1.125rem;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.fb_links ul{
+  list-style: none;
+  margin-top: 1.5rem;
+  margin-left: -2rem;
+}
+
+.fb_links ul li{
+  margin-bottom: 1.2rem;
+  color: #505050;
+  cursor: pointer;
+  font-size: 0.875rem;
+  
+}
+
+.fb_links ul li a{
+  color: #505050;
+}
+
+.fb_links ul li a:hover{
+  color: #fe5c4d;
+  transition: all 0.5s ease-in-out;
+}
+
+.fb_footer_add{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.fb_footer_add{
+  margin-top: 1.5rem;
+}
+
+.fb_footer_add span{
+  color: #505050;
+font-family: DM Sans;
+font-size: 0.875rem;
+font-weight: 500;
+line-height: 1.5625rem;
+letter-spacing: -0.02563rem;
+text-transform: capitalize;
+}
+
+.fb_mail{
+  font-weight: 600;
+  text-transform: lowercase;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.fb_mail:hover{
+  color:#fe5c4d;
+  transition: all 0.5s ease-in-out;
+}
+
+.fb_mail_flex{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.fb_mail_flex img{
+  margin-right: 0.5rem;
+}
+
+/* footer css ends */
 
 /* media query section  */
 
