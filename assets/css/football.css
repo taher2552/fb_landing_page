@@ -934,8 +934,7 @@ ul {
   min-width: 21.375rem;
 }
 
-.fb_red_bg,
-.fb_grey_bg {
+.fb_red_bg{
   border-radius: 50%;
   padding: 0.5rem;
   background-color: #fe5c4d;
@@ -945,11 +944,22 @@ ul {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .fb_grey_bg {
   background-color: #f4f4f4;
-  margin-right: 0.7rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .fb_arrow_click {
