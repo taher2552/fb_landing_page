@@ -447,6 +447,8 @@ ul {
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 /* fb menu section starts ends */
@@ -726,7 +728,7 @@ ul {
 
 .fb_blue_card_5k {
   font-size: 1.5625rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .fb_blue_flex {
