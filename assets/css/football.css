@@ -1204,6 +1204,17 @@ text-transform: capitalize;
 .fb_mail_flex img{
   margin-right: 0.5rem;
 }
+.fb_footer_bottom{
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem;
+  color: #fff !important;
+  margin-top: 1rem;
+  background-color: #fe5c4d;
+}
+
+
+
 
 /* footer css ends */
 
