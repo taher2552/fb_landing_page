@@ -928,12 +928,27 @@ font-weight: 700;
   min-width: 21.375rem;
 }
 
-.fb_red_bg{
+.fb_red_bg, .fb_grey_bg{
   border-radius: 50%;
   padding: 0.5rem;
   background-color: #fe5c4d;
   width: 2rem;
   height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fb_grey_bg{
+  background-color: #F4F4F4;
+  margin-right: 0.7rem;
+}
+
+.fb_arrow_click{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

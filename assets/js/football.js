@@ -1,4 +1,3 @@
-
 // on hover sports js
 
 // Get all the sport options
@@ -31,7 +30,6 @@ const city = document.querySelector(".fb_city");
 const viewAllCities = document.querySelector(".fb_all_cities"); // Select the "View All Cities" element
 const cityListDiv = document.querySelector(".city_list_div"); // Select the city list div
 
-
 // Function to check if the cursor is outside the div
 function isHoveredOutsideCity(event) {
   return !cityDiv.contains(event.target) && !city.contains(event.target);
@@ -56,7 +54,6 @@ city.addEventListener("mouseover", () => {
 // view and hide city list js
 
 document.addEventListener("DOMContentLoaded", function () {
-
   // Toggle function to handle the click event
   function toggleCityList() {
     if (viewAllCities.textContent === "View All Cities") {
@@ -76,5 +73,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // view and hide city list js ends
 
+///blog scroll js
 
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollLeftButton = document.querySelector(".scroll-left");
+  const scrollRightButton = document.querySelector(".scroll-right");
+  const blogFlex = document.querySelector(".fb_blog_flex");
 
+  scrollLeftButton.addEventListener("click", function () {
+    blogFlex.scrollBy({
+      left: -200, // Adjust the scroll amount as needed
+      behavior: "smooth",
+    });
+  });
+
+  scrollRightButton.addEventListener("click", function () {
+    blogFlex.scrollBy({
+      left: 200, // Adjust the scroll amount as needed
+      behavior: "smooth",
+    });
+  });
+});
+
+///blog scroll js ends
