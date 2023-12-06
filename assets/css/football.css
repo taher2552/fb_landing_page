@@ -88,7 +88,6 @@ ul {
   background: #fe5c4d;
   color: #fff;
   font-weight: 700;
-  text-transform: uppercase;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;
 }
@@ -456,6 +455,10 @@ ul {
 .fb_feature_wrapper {
   margin-left: 6.25rem;
   margin-right: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .fb_feature_head {
@@ -467,7 +470,6 @@ ul {
 }
 
 .fb_feature_card {
-  width: min-content;
   height: auto;
   flex-shrink: 0;
   border-radius: 0.625rem 0.625rem 0rem 0rem;
@@ -477,8 +479,8 @@ ul {
 }
 
 .fb_feature_card_2 {
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
 }
 
 .fb_img_secion {
@@ -672,7 +674,7 @@ ul {
   border-radius: 0.625rem;
   border: 1px solid #dcdcdc;
   background: #fff;
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 1.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
@@ -683,7 +685,7 @@ ul {
 .fb_register {
   color: #222;
   font-family: DM Sans;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 600;
   letter-spacing: -0.02563rem;
@@ -720,6 +722,13 @@ ul {
   width: 8.875rem;
   height: 7.625rem;
   color: #fff;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.fb_blue_card_5k{
+  font-size: 1.5625rem;
+  font-weight: 600;
 }
 
 .fb_blue_flex {
@@ -1280,6 +1289,39 @@ text-transform: capitalize;
 
   .city_list_div ul {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1285px) {
+  .fb_feature_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+}
+
+@media only screen and (max-width: 927px) {
+  .fb_feature_card_2 {
+    margin-right:  0;
+  }
+
+}
+@media only screen and (max-width: 917px) {
+  .fb_feature_card_2 {
+    margin-left:  0;
+  }
+
+}
+
+@media screen and (min-width: 1285px) and (flex-wrap: wrap) {
+  .fb_feature_wrapper {
+    justify-content: space-between;
+  }
+
+  .fb_feature_card_2 {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
   }
 }
 
