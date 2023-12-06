@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Dm Sans;
+}
+
 /* general css  */
 
 .fb_flex {
@@ -31,7 +35,6 @@ a {
 .fb_container {
   max-width: 1650px;
   margin: 0 auto;
-  border: 1px solid green;
   padding: 1rem 6.25rem;
 }
 
